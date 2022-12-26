@@ -16,3 +16,10 @@ for (let i = 0; i < nodeList.length; i++) {
 
 // let node = document.querySelector(".example");
 // node.style.backgroundColor = "blue";
+
+var classContent = document.querySelector(".classContent");
+var btn = document.querySelector(".btnClassContent");
+
+btn.addEventListener("click", function () {
+  classContent.textContent = "Nasamte Form Nepal ";
+});
