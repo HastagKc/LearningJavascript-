@@ -1,4 +1,4 @@
-// ? variable and contant 
+// ? variable and constant 
 // variable is a named location (memory address ) that holds value 
 // declaration of variable 
 
