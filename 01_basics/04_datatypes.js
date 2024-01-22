@@ -1,5 +1,20 @@
 /*
 
+* Return type of variables in JavaScript *
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object    
+
 <------------Dynamic Type----------------------------->
 
 JavaScript is a dynamic language with dynamic types. 
@@ -29,6 +44,9 @@ involves mismatched types, instead of throwing type errors.
 <--------------type coercion --------------------------------->
 
 */
+
+
+
 
 
 

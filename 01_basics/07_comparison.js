@@ -24,6 +24,10 @@ console.log(undefined == 0);
 console.log(undefined > 0);
 console.log(undefined < 0);
 
-// === 
+// === this operator check data types as well as value 
+
 
 console.log("2" === 2);
+
+
+// *Note: For comparison varible data types should be same 
