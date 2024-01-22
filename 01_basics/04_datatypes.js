@@ -24,13 +24,13 @@ be assigned (and re-assigned) values of all types:
 
 */
 
-let dynamicTypeExample="Harry";  // string 
+let dynamicTypeExample = "Harry"; // string
 console.log(typeof dynamicTypeExample);
 
-dynamicTypeExample=22; // not its a number 
+dynamicTypeExample = 22; // not its a number
 console.log(typeof dynamicTypeExample);
 
-dynamicTypeExample=false; // now it is a boolean data types 
+dynamicTypeExample = false; // now it is a boolean data types
 console.log(typeof dynamicTypeExample);
 
 /*
@@ -44,12 +44,3 @@ involves mismatched types, instead of throwing type errors.
 <--------------type coercion --------------------------------->
 
 */
-
-
-
-
-
-
-
-
-
