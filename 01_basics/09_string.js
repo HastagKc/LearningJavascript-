@@ -30,4 +30,9 @@ console.log(greeting.trim().length);
 // indexOf(argument)
 let msg = "Uk university is shit";
 console.log(msg.indexOf("n"));
+
+// slice(startIndex, endIndex)
 console.log(msg.slice(17, 21));
+
+// replace
+console.log(msg.replace("shit", "Good"));
