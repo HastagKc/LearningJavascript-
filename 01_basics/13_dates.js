@@ -67,13 +67,29 @@ const formatter = new Intl.DateTimeFormat("en-US", {
 const formattedDate2 = formatter.format(currentDate);
 console.log("Formatted Date 2:", formattedDate2);
 
-// // Parse a date string
-// const dateString = "2024-01-27T12:30:00Z";
-// const parsedDate = new Date(dateString);
-// console.log("Parsed Date:", parsedDate);
+// Parse a date string
+const dateString = "2024-01-27T12:30:00Z";
+const parsedDate = new Date(dateString);
+console.log("Parsed Date:", parsedDate.toString());
 
-// // Manipulate dates
-// currentDate.setDate(currentDate.getDate() + 7);
-// currentDate.setHours(currentDate.getHours() - 3);
+// Manipulate dates
+currentDate.setDate(currentDate.getDate() + 7).toString();
+currentDate.setHours(currentDate.getHours() - 3);
 
-// console.log("Modified Date:", currentDate);
+console.log("Modified Date:", currentDate.toDateString());
+
+//* timestamp
+
+const currentTimeStamp = Date.now();
+console.log(currentDate.toString());
+
+// starting time stamp of 1970 jan-01
+console.log(currentDate.getTime());
+
+// timestamp to date
+let timestamp = "1706949050065";
+
+let formateIndate = parseInt(timestamp, 10);
+console.log(typeof formateIndate);
+let convertIntoDate = new Date(formateIndate); // Date() parameter should be Number
+console.log(convertIntoDate.toString());
