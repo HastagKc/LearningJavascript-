@@ -18,3 +18,9 @@ console.log(typeof stringToNumber);
 
 const num3 = 100000000000;
 console.log(num3.toLocaleString("en-IN"));
+
+// value from 10 to 20
+
+const min = 10;
+const max = 20;
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
