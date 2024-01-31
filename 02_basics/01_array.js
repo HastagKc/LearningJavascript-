@@ -71,6 +71,7 @@ console.log(arr2); // [ 'Ram', 'Hari' ]
 
 
 */
+
 const fruits = ["apple", "banana", "cherry", "date"];
 
 // Extract elements from index 1 to 3 (not including 3)
@@ -81,6 +82,8 @@ console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'date']
 
 //* 2.`splice()` method:
 /*
+
+
  - The `splice()` method is used to change the contents of an array by removing or replacing existing elements and/or adding new elements in place.
 
 
@@ -89,6 +92,8 @@ console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'date']
 - The syntax is `array.splice(start, deleteCount, item1, item2, ...)`, where `start` is the 
    index at which to start changing the array, `deleteCount` is the number of elements to remove, and `item1, item2, ...` are the elements to add.
 
+
+   
 */
 const fruitsArr = ["apple", "banana", "cherry", "date"];
 
