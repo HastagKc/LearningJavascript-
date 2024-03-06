@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom (Document object Model )</title>
+  </head>
+  <body>
+    <h2>DOM</h2>
+
+    <!-- Finding the HTML Elements by their Id in DOM -->
+    <p id="intro">
+      The Document Object Model (DOM) is a programming interface for web
+      documents. It represents the structure of an HTML or XML document as a
+      hierarchical tree of objects, where each node in the tree corresponds to a
+      part of the document, such as an element, attribute, or text.
+    </p>
+    <p>This example illustrates the <b>getElementById</b> method.</p>
+    <p id="demo"></p>
+
+    <script>
+      const element = document.getElementById("intro");
+      document.getElementById("demo").innerHTML =
+        "<b> What is DOM (Document Object Model) ?</b> </br> " +
+        element.innerHTML;
+    </script>
+  </body>
+</html>
